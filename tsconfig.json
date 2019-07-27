@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "rootDir": "./sketch/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "es2015"
+  },
+  "include": ["p5/index.d.ts", "p5/global.d.ts", "sketch/**/*"]
+}
